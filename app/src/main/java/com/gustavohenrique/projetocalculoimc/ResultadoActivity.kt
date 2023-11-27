@@ -30,14 +30,14 @@ class ResultadoActivity : AppCompatActivity() {
 
             val resultado = if (imc < 18.5) {
                 "Baixo"
-            }else if (imc in 18.5..24.9){
+            } else if (imc in 18.5..24.9) {
                 "Normal"
-            }else if (imc in 25.0 .. 29.9) {
-               "Sobrepeso"
-            }else{
+            } else if (imc in 25.0..29.9) {
+                "Sobrepeso"
+            } else {
                 "Obeso"
             }
             textResultado.text = resultado
-    }
+        }
     }
 }
